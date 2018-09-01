@@ -24,4 +24,15 @@ pom.xml - This file contains the dependency related to the framework.
 testng.xml - xml file contains the parameter where login details are stored as well as triggers the TestCase file.
 
 test-output - contains the results being generated from the xml run.
-Misc - The framework contains the chromedriver along with the file which used for the upload test	  	
+Misc - The framework contains the chromedriver along with the file which used for the upload test	 
+
+The Automation Test Challenge contains 5 tests.
+
+@Test aree with priority, description and with successPercentage annotations.
+The test cases are 
+				loginValidation() - These are after login validation
+				fileUploadTest() - The test is to upload a file and wait for the file upload is complete.
+				searchUploadedFileTestCase() - Search for the already uploaded file in the Dropbox search tab
+				deleteUploadedFile() - Delete the already uploaded file from Dropbox.
+				createFolderTest() - Create a folder in  the Dropbox
+			After all the test performed Logout from the Dropbox website.	 	
