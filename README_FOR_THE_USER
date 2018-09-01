@@ -1,0 +1,27 @@
+Read Me Note For the User
+----------------------------
+
+Challenge Name - Dropbox
+Automation Test Code By - Prabhudutta Mallik
+Automation Tool - Selenium
+Build Tool - Maven
+Programming Language - Core Java
+
+I have developed a Framework based upon POM.
+Where all the Page has the required XPATH and the page level actions to be performed at the same time.
+
+Base Class - Framework BaseClass is to initialize the Browser launch operation and to read the config files while launching the browser.
+config.properties - config file is to read the URL to test and which browser to launch while testing.
+Pages Package - Pages package contains the POM of approach. where we have all the webelement are captured and as per the action to
+				be performed on the page we create methods which will help to perform required operation.
+				
+Utils Package - Utils package is there with methods which are common to be used in the test case level.
+
+pom.xml - This file contains the dependency related to the framework.
+		  The dependency we have now are as follows
+		  	- Selenium 3.13 and testNG -6.8 
+		  	
+testng.xml - xml file contains the parameter where login details are stored as well as triggers the TestCase file.
+
+test-output - contains the results being generated from the xml run.
+Misc - The framework contains the chromedriver along with the file which used for the upload test	  	
