@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]">
+  <parameter name="password" value="test09test"/>
+  <parameter name="email" value="taccone09@gmail.com"/>
+  <test name="Drop box Login Test(failed)(failed)">
+    <parameter name="password" value="test09test"/>
+    <parameter name="email" value="taccone09@gmail.com"/>
+    <classes>
+      <class name="com.test.qa.dropbox.testCases.FileUploadTest">
+        <methods>
+          <include name="fileUploadTest" invocation-numbers="0"/>
+          <include name="browserLaunch"/>
+          <include name="createFolderTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.test.qa.dropbox.testCases.FileUploadTest -->
+    </classes>
+  </test> <!-- Drop box Login Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
